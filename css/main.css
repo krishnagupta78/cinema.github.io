@@ -1,0 +1,60 @@
+#body{
+    margin-top:0px;
+    margin: 0px;
+}
+
+.topnav{
+    background-color: crimson;
+    overflow: hidden;
+    font-family: monospace;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    
+}
+.topnav a{
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 40px;
+    letter-spacing: 5;
+    
+}
+.topnav a:hover{
+    background-color: white;
+    color: crimson;
+    
+    
+}
+.bodyname{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    
+    
+}
+.searchbar{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 70px;
+    font-size: 25px;
+    
+}
+
+.input[type=text]{
+    width: 10px;
+    -webkit-transition:width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+input[type=text]{
+    width: 25%;
+}
